@@ -1,0 +1,42 @@
+fieldset fieldset > legend:not(.col-form-label) {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.inner-div {
+  background-color: #00000050;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+.floating-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.bg-formulario {
+  /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+  background-image: linear-gradient(to top, #ace0f9 0%, #fff1eb 100%);
+}
+.bg-formulario-edit {
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+
+.bg-inicio {
+  background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
